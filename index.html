@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Imagenes/Logo-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Inicio-->
+    <header>
+        <nav>
+            <a href="#" class="enlace">
+                <img src="Imagenes/Logo-removebg-preview.png" alt="" class="logo">
+            </a>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class='bx bx-menu'></i>
+            </label>
+            <ul>
+                <li><a class="active" href="#inicio">Inicio</a></li>
+                <li><a href="#acercademi">Empresa</a></li>
+                <li><a href="#portafolio">Proyectos</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+                <li><a href="pagina/proyecto.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio" class="banner">
+        <div class="row">
+            <h2>
+                Construimos el futuro con 
+                <div class="change" id="rotate">
+                    <span>pasión</span>
+                    <span>amor</span>
+                    <span>Fortaleza</span>
+                    <span> innovación </span>
+                    <span>solidaridad</span>
+                    <span>mente</span>
+                </div>
+            </h2>
+        </div>
+        <a href="" class="btnServices">Contratanos</a>
+    </section>
+    <!-- Acerca de la empresa-->
+    <section id="acercademi">
+        <h2 class="headings"></h2>
+        <div id="pic">
+            <img src="Imagenes/imagen-objetos-ingenieria-punto-vista-top-construction-trabajo-herramientas-ingenieria-vintage-efecto-filtro-retro-tono-enfoque-suave-enfoque-selectivo.jpg" alt="">
+            <div id="intro">
+                <h2>Bienvenidos</h2>
+                <p>Steelwell Constructors es una empresa especializada en la construcción de viviendas, edificios comerciales y plataformas industriales. Estamos comprometidos con la calidad, sostenibilidad y desarrollo social en nuestras operaciones. Contamos con un equipo profesional altamente calificado, formado por ingenieros, arquitectos y profesionales especializados en la industria de la construcción.</p>
+                <p>Buscamos satisfacer las necesidades de nuestros clientes con una solución innovadora y rentable. Utilizamos los últimos avances en tecnologías de construcción para ofrecer altos niveles de eficiencia y desempeño. Estamos comprometidos con el medio ambiente y la sostenibilidad, por lo tanto implementamos métodos y tecnologías ecológicas como parte de nuestras estrategias de construcción. <br> Somos una de las principales compañías de construcción en nuestra región y contamos con proyectos de construcción e instalaciones en Perú, Ecuador y Chile. Ofrecemos servicios integrales de consultoría, diseño, gestión de proyectos, construcción y servicios post-construcción.</p>
+               
+                    <table>
+                        <caption>Nuestras estadisticas</caption>
+                        <tr>
+                            <th>Datos</th>
+                            <th>Cantidad</th>
+                        </tr>
+                        <tr>
+                            <td>Proyectos</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>Cuidades</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Familias beneficiadas</td>
+                            <td>5,000</td>
+                        </tr>
+                    </table>
+            </div>
+        </div>
+    </section>
+    <!-- Portafolio de la empresa-->
+    <section id="portafolio">
+        <h2 class="headings">Portafolio</h2>
+        <div class="fotos">
+            <img src="Imagenes/dylann-hendricks-VzACw1Xs8N4-unsplash.jpg" alt="">
+            <img src="Imagenes/randy-fath-ymf4_9Y9S_A-unsplash.jpg" alt="">
+            <img src="Imagenes/webaliser-_TPTXZd9mOo-unsplash.jpg" alt="">
+            <img src="Imagenes/gran-solar.jpg" alt="">
+            <img src="Imagenes/tolu-olubode-PlBsJ5MybGc-unsplash.jpg" alt="">
+            <img src="Imagenes/ben-allan-BIeC4YK2MTA-unsplash.jpg" alt="">
+        </div>
+    </section>
+    <div class="formulario" id="Contacto">
+        <form action="https://formsubmit.co/castillofabian060@gmail.com" method="POST">
+            <h2>Contacto</h2>
+            <div class="input-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                <label for="telefono">Telefono</label>
+                <input type="tel" name="telefono" id="telefono" placeholder="Telefono">
+                <label for="correo">Correo</label>
+                <input type="correo" name="correo" id="correo" placeholder="Correo">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                <div class="form-txt">
+                    <a href="#">Politica de privacidad</a>
+                    <a href="#">Politica de privacidad</a>
+                </div>
+                <input class="btn" type="submit" value="Enviar">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                <input type="hidden" name="_captcha" value="false">
+            </div>
+        </form>
+    </div>
+<!-- pie de pagina de la web-->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="Imagenes/Logo-removebg-preview.png" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Steelwell Constructors es una empresa de construcción con más de 30 años de experiencia en el sector. Estamos orgullosos de servir a la comunidad como uno de los principales proveedores de servicios de construcción en la zona. Tenemos una variedad de equipos y herramientas para satisfacer las necesidades de nuestros clientes.</p>
+                <p>Horarios: <br>Lunes a Viernes desde 6am hasta 6pm <br> Numero de telefono 3228431912 <br> calle 20 1 abis 74 rosas</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="3228431911" class="fa fa-phone"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Steelwell Constructors</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    
+</body>
+</html>
